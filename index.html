@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="header__inner">
+        <div class="logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="logo">
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#services">Услуги</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#about">О Нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#comfort">Польза Продукта</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#solution">Оборудование</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#scheme">Этапы Работы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#clients">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__connect">
+          <button class="header__connect-border">
+            <div class="header__connect-btn">
+              Связаться
+            </div>
+          </button>
+        </div>
+        <div class="menu-btn">
+          <div class="btn-body">
+            <div class="line"></div>
+            <div class="line-box">
+              <span class="line-bar"></span>
+              <span class="line-bar"></span>
+            </div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="connection">
+      <div class="connection__inner">
+        <h3 class="connection__title">Быстрая Связь</h3>
+        <h3 class="connection__title">С Нами</h3>
+        <div class="connection__content">
+          <p class="connection__text">Вы можете набрать нам, и менеджеры Pascal Vent с радостью проконсультирует Вас по
+            любому вопросу и помогут определиться с выбором.</p>
+          <p class="connection__info">График приема звонков:</p>
+          <p class="connection__time">ПН-СБ с 9:00 до 19:00</p>
+          <div class="connection__numbers">
+            <a class="connection__number" href="tel:+74923736331">+ 7 492 373 63 31</a>
+            <span class="connection__line"></span>
+            <a class="connection__number" href="tel:+74243678929">+ 7 424 367 89 29</a>
+          </div>
+        </div>
+      </div>
+      <button class="exit-border">
+        <div class="exit-body">
+          <img class="exit-img" src="images/exit.svg" alt="exit">
+        </div>
+      </button>
+    </div>
+    <div class="overlay"></div>
+  </header>
+  
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <div class="top__inner">
+          <h1 class="top__title">Чистый Воздух</h1>
+          <h1 class="top__title">Вместе С</h1>
+          <h1 class="top__title">Pascal vent</h1>
+          <p class="top__subtitle">Проектирование, поставка и монтаж систем вентиляции и кондиционирования</p>
+          <ul class="top__list">
+            <li class="top__list-item">
+              <p class="top__list-address">Московский регион,<br> Москва</p>
+            </li>
+            <li class="top__list-item">
+              <a class="top__list-link" href="tel:+74923736331">+ 7 492 373 63 31</a>
+              <a class="top__list-link" href="tel:+74243678929">+ 7 424 367 89 29</a>
+            </li>
+          </ul>
+          <button class="button-border">
+            <div class="button-btn">Оставить заявку</div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__content">
+          <h3 class="services__title">Предоставляемые</h3>
+          <h3 class="services__title">Услуги</h3>
+          <p class="services__text">При разработке проекта предложим техническое решение оптимальное по соотношению цены
+            и качества, оно идеально впишется в ваш дизайн, а также будет учитывать все ваши пожелания.</p>
+          <p class="services__text">Монтаж выполняется опытными бригадами с соблюдением всех действующих технических
+            норм, правил безопасности и строго по согласованному проекту.</p>
+          <p class="services__text">Одинаково эффективно выполняем проектирование и монтаж на объектах любой сложности –
+            от небольшой квартиры, до объектов со сложными технологическими процессами на основе действующей нормативной
+            документации.</p>
+        </div>
+      </div>
+      <div class="services__block">
+        <div class="services__buttons">
+          <button class="services__btn services__btn-top services__btn--active">
+            <p class="services__btn-title">Система Вентиляции</p>
+            <svg class="services__svg-top" width="33" height="33" viewBox="0 0 33 33" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.5002 14.7344C15.5237 14.7316 14.7298 15.5209 14.7271 16.4974C14.7243 17.4738 15.5136 18.2676 16.4902 18.2703H16.4938C17.4703 18.2721 18.2634 17.482 18.2652 16.5056C18.2669 15.5292 17.4768 14.7362 16.5002 14.7344Z"
+                fill="white" />
+              <path
+                d="M16.5074 11.7876H16.5032C13.8991 11.7827 11.7842 13.8896 11.7793 16.4934C11.7744 19.0972 13.8815 21.2119 16.4856 21.2168C17.742 21.2327 18.9503 20.734 19.8298 19.8366C21.1809 18.491 21.5877 16.4639 20.8601 14.7013C20.1326 12.9388 18.4143 11.7886 16.5074 11.7876ZM16.4956 19.4488H16.4897C14.8588 19.4472 13.5378 18.1244 13.5387 16.4936C13.5395 14.8629 14.8618 13.5414 16.4927 13.5414C18.1235 13.5414 19.4458 14.8629 19.4467 16.4936C19.4474 18.1244 18.1264 19.4472 16.4956 19.4488Z"
+                fill="white" />
+              <path
+                d="M5.66887 20.6221C6.43754 19.8373 7.33701 19.1924 8.32698 18.7162C9.0934 18.2889 9.9627 18.081 10.8395 18.1151C10.2519 16.0783 10.8125 13.8831 12.3047 12.3774C10.6225 10.8148 8.47776 9.84143 6.19399 9.60403C4.76978 9.4231 3.34126 9.90531 2.31821 10.9123C1.55676 11.6775 0.96324 12.5929 0.575424 13.6003C-0.225866 15.366 -0.18867 17.3988 0.676826 19.134C0.740452 19.263 0.811814 19.375 0.880726 19.4923C1.56424 23.0966 3.47631 26.3525 6.29127 28.7052C6.45191 28.8458 6.67612 28.8885 6.87725 28.8169C7.07838 28.7452 7.22503 28.5704 7.26055 28.3599C7.29614 28.1494 7.21504 27.9361 7.04866 27.8024C4.91799 26.0207 3.33539 23.6723 2.48389 21.0287C2.58187 21.0809 2.68256 21.1277 2.78564 21.169C3.76479 21.6217 4.92353 21.402 5.66887 20.6221Z"
+                fill="white" />
+              <path
+                d="M32.4282 19.4072C33.2272 17.6408 33.1874 15.6083 32.3197 13.8746C32.2532 13.7397 32.1842 13.6118 32.1123 13.4898C31.4279 9.89663 29.5213 6.65088 26.7159 4.30341C26.5548 4.16489 26.3315 4.12376 26.1316 4.19583C25.9317 4.26789 25.7861 4.44199 25.7505 4.65148C25.7149 4.86096 25.7948 5.07335 25.9597 5.20742C28.081 6.98335 29.657 9.32277 30.5057 11.9558C30.4119 11.9128 30.317 11.8715 30.2186 11.8379C29.2402 11.3853 28.0822 11.6046 27.3371 12.3836C26.5677 13.1687 25.6677 13.8142 24.6772 14.2912C23.9105 14.718 23.0415 14.9268 22.1646 14.8947C22.7531 16.9332 22.1908 19.1305 20.6953 20.6359C22.3781 22.1952 24.5212 23.1671 26.8031 23.4057C28.2297 23.5853 29.6601 23.1029 30.6865 22.0962C31.4483 21.3311 32.0415 20.4152 32.4282 19.4072Z"
+                fill="white" />
+              <path
+                d="M13.873 0.687191C13.7497 0.74733 13.6318 0.810176 13.5194 0.875794C9.90643 1.55337 6.64274 3.46924 4.29019 6.29344C4.15488 6.45484 4.116 6.67612 4.18814 6.87394C4.26027 7.07176 4.43246 7.21615 4.6399 7.25257C4.84735 7.28905 5.05847 7.21209 5.19372 7.05069C6.97028 4.92134 9.31439 3.33942 11.954 2.48871C11.9071 2.5863 11.8652 2.68621 11.8285 2.78812C11.3817 3.76851 11.6036 4.92424 12.3819 5.6693C13.1632 6.44189 13.8081 7.34113 14.2892 8.32894C14.7147 9.09579 14.9225 9.96429 14.8903 10.8407C15.4147 10.6889 15.9576 10.611 16.5035 10.6091H16.5088C18.052 10.6103 19.5325 11.2195 20.6298 12.3045C22.1883 10.6222 23.1619 8.4817 23.4058 6.20152C23.5874 4.77521 23.1022 3.34471 22.0903 2.32319C21.3272 1.56059 20.4129 0.966163 19.4062 0.578194C17.6414 -0.229651 15.6047 -0.189494 13.873 0.687191Z"
+                fill="white" />
+              <path
+                d="M13.598 32.4282C15.3646 33.2273 17.3974 33.1872 19.1312 32.3192C19.2626 32.2549 19.3787 32.1819 19.4984 32.1112C23.0995 31.4356 26.3532 29.5278 28.7011 26.7153C28.8419 26.5543 28.8845 26.3296 28.8123 26.1283C28.74 25.9269 28.5644 25.7805 28.3532 25.7458C28.1421 25.7111 27.9288 25.7934 27.7958 25.961C26.0199 28.089 23.674 29.6666 21.0332 30.5088C21.0839 30.4148 21.1294 30.318 21.1694 30.2189C21.6166 29.2385 21.3948 28.0825 20.6165 27.3371C19.838 26.5641 19.1957 25.6651 18.7169 24.678C18.2905 23.9121 18.0818 23.0441 18.1134 22.1681C17.5873 22.3183 17.0428 22.3949 16.4956 22.3956H16.4838C14.9422 22.3928 13.464 21.7823 12.3699 20.6965C10.8116 22.3798 9.83984 24.522 9.59978 26.8031C9.41773 28.2293 9.90024 29.6602 10.9088 30.685C11.674 31.4469 12.59 32.0406 13.598 32.4282Z"
+                fill="white" />
+            </svg>
+          </button>
+          <button class="services__btn services__btn-bottom services__btn--disabled">
+            <p class="services__btn-title">Кондиционирование</p>
+            <svg class="services__svg-bottom" width="33" height="27" viewBox="0 0 33 27" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_86_1787)">
+                <path
+                  d="M30.0996 0H2.90039C1.30105 0 0 1.29767 0 2.89286V12.5357C0 14.1309 1.30105 15.4286 2.90039 15.4286H30.0996C31.6989 15.4286 33 14.1309 33 12.5357V2.89286C33 1.29767 31.6989 0 30.0996 0ZM24.2988 5.78571C24.8328 5.78571 25.2656 6.21746 25.2656 6.75C25.2656 7.28254 24.8328 7.71428 24.2988 7.71428C23.7649 7.71428 23.332 7.28254 23.332 6.75C23.332 6.21746 23.7649 5.78571 24.2988 5.78571ZM28.166 11.5714H4.83398C4.2996 11.5714 3.86719 11.1401 3.86719 10.6071C3.86719 10.0741 4.2996 9.64286 4.83398 9.64286H28.166C28.7004 9.64286 29.1328 10.0741 29.1328 10.6071C29.1328 11.1401 28.7004 11.5714 28.166 11.5714ZM28.166 7.71428C27.6321 7.71428 27.1992 7.28254 27.1992 6.75C27.1992 6.21746 27.6321 5.78571 28.166 5.78571C28.6999 5.78571 29.1328 6.21746 29.1328 6.75C29.1328 7.28254 28.6999 7.71428 28.166 7.71428Z"
+                  fill="#7CA281" />
+                <path
+                  d="M8.7655 17.3572C8.23112 17.3572 7.7987 17.7885 7.7987 18.3215V19.7952C7.7987 22.0873 6.52131 24.1477 4.4659 25.1732C3.98817 25.4114 3.79462 25.9906 4.03348 26.467C4.27118 26.9398 4.84817 27.1373 5.33073 26.8983C8.04607 25.5442 9.7323 22.8227 9.7323 19.7952V18.3215C9.7323 17.7885 9.29988 17.3572 8.7655 17.3572Z"
+                  fill="#7CA281" />
+                <path
+                  d="M24.2344 17.3572C23.7 17.3572 23.2676 17.7885 23.2676 18.3215V19.7952C23.2676 22.8227 24.9538 25.5442 27.6691 26.8983C28.1513 27.137 28.7285 26.9402 28.9664 26.467C29.2053 25.9906 29.0117 25.4114 28.534 25.1732C26.4786 24.1477 25.2012 22.0873 25.2012 19.7952V18.3215C25.2012 17.7885 24.7688 17.3572 24.2344 17.3572Z"
+                  fill="#7CA281" />
+                <path
+                  d="M17.4668 26.0357V18.3215C17.4668 17.7885 17.0344 17.3572 16.5 17.3572C15.9656 17.3572 15.5332 17.7885 15.5332 18.3215V26.0357C15.5332 26.5687 15.9656 27 16.5 27C17.0344 27 17.4668 26.5687 17.4668 26.0357Z"
+                  fill="#7CA281" />
+                <path
+                  d="M21.334 26.0357V18.3215C21.334 17.7885 20.9016 17.3572 20.3672 17.3572C19.8328 17.3572 19.4004 17.7885 19.4004 18.3215V26.0357C19.4004 26.5687 19.8328 27 20.3672 27C20.9016 27 21.334 26.5687 21.334 26.0357Z"
+                  fill="#7CA281" />
+                <path
+                  d="M13.5996 26.0357V18.3215C13.5996 17.7885 13.1672 17.3572 12.6328 17.3572C12.0984 17.3572 11.666 17.7885 11.666 18.3215V26.0357C11.666 26.5687 12.0984 27 12.6328 27C13.1672 27 13.5996 26.5687 13.5996 26.0357Z"
+                  fill="#7CA281" />
+              </g>
+              <defs>
+                <clipPath id="clip0_86_1787">
+                  <rect width="33" height="27" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </div>
+        <div class="services__box">
+          <div class="services__box-top">
+            <ul class="services__list">
+              <li class="services__list-item"><span class="services__item-max">Проектирование систем вентиляции любой сложности</span><span class="services__item-mini">Монтаж системы осушения, вентиляции воздуха в бассейне</span></li>
+              <li class="services__list-item">Монтаж приточной вентиляции</li>
+              <li class="services__list-item">Монтаж вытяжной вентиляции</li>
+              <li class="services__list-item">Монтаж вентиляции с увлажнением воздуха</li>
+              <li class="services__list-item">Монтаж вентиляции с рекуператором</li>
+              <li class="services__list-item">Монтаж вентиляции с осушением для бассейна</li>
+            </ul>
+            <img class="services__box-img" src="images/services1.png" alt="image">
+          </div>
+          <div class="services__box-bottom">
+            <ul class="services__list">
+              <li class="services__list-item">Проектирование систем кондиционирования</li>
+              <li class="services__list-item">Монтаж сплит-систем</li>
+              <li class="services__list-item">Монтаж мульти сплит-систем</li>
+              <li class="services__list-item">Монтаж VRV и VRF систем</li>
+              <li class="services__list-item">Монтаж фанкойлов</li>
+              <li class="services__list-item">Монтаж настенных, канальных и кассетных кондиционеров</li>
+            </ul>
+            <img class="services__box-img" src="images/services2.png" alt="image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution" id="solution">
+      <div class="container">
+        <div class="solution__inner">
+          <div class="solution__titles">
+            <h3 class="solution__title">Комплексное Решение <span class="solution__max">По Монтажу</span></h3>
+            <h3 class="solution__title"><span class="solution__mini">По Монтажу И</span><span class="solution__max">И Вентиляции Под Ключ</span></h3>
+            <h3 class="solution__title solution__mini">Вентиляции Под Ключ</h3>
+          </div>
+          
+          <ul class="solution__list">
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol1.jpg" alt="image">
+              <p class="solution__list-title">Квартиры и офисы</p>
+              <p class="solution__list-price">от 100 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol3.jpg" alt="image">
+              <p class="solution__list-title">Магазины и ТЦ</p>
+              <p class="solution__list-price">от 100 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol2.jpg" alt="image">
+              <p class="solution__list-title">Фитнес центры</p>
+              <p class="solution__list-price">от 150 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol4.jpg" alt="image">
+              <p class="solution__list-title">Бассейны</p>
+              <p class="solution__list-price">от 150 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol5.jpg" alt="image">
+              <p class="solution__list-title">Загородные дома, коттеджи, таунхаусы</p>
+              <p class="solution__list-price">от 200 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol6.jpg" alt="image">
+              <p class="solution__list-title">Рестораны, кафе, бары</p>
+              <p class="solution__list-price">от 200 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol7.jpg" alt="image">
+              <p class="solution__list-title">Стоматологии, клиники</p>
+              <p class="solution__list-price">от 200 000 ₽</p>
+            </li>
+            <li class="solution__list-item">
+              <img class="solution__list-img" src="images/sol8.jpg" alt="image">
+              <p class="solution__list-title">Салоны красоты, СПА</p>
+              <p class="solution__list-price">от 100 000 ₽</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="container">
+        <div class="steps__inner">
+          <div class="steps__titles">
+            <h3 class="steps__title">3 Простых Шага</h3>
+            <h3 class="steps__title">К Очищению Воздуха</h3>
+          </div>
+          <div class="steps__content">
+            <p class="steps__content-title">Кажется, Это Знак...</p>
+            <ul class="steps__list">
+              <li class="steps__list-item">
+                <p class="steps__list-text">Получите скидку 5% на монтаж при заполнении анкеты на сайте</p>
+              </li>
+              <li class="steps__list-item">
+                <p class="steps__list-text">Бесплатно сделаем проект и пусконаладку системы при заказе монтажа</p>
+              </li>
+              <li class="steps__list-item">
+                <p class="steps__list-text">Кэшбек до 10% дизайнерам при передаче Клиента и заказе у нас проекта с
+                  монтажом!</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="steps__scheme">
+          <div class="steps__scheme-list">
+            <li class="steps__scheme-item">
+              <div class="steps__circle">
+                <img class="steps__one-img" src="images/step1.svg" alt="step">
+              </div>
+              <p class="steps__scheme-text">Ваше желание</p>
+            </li>
+            <li class="steps__scheme-item">
+              <div class="steps__circle">
+                <img class="steps__two-img" src="images/step2.svg" alt="step">
+              </div>
+              <p class="steps__scheme-text">Заявка</p>
+            </li>
+            <li class="steps__scheme-item">
+              <div class="steps__circle">
+                <img class="steps__three-img" src="images/step3.svg" alt="step">
+              </div>
+              <p class="steps__scheme-text">Реализация</p>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="request">
+      <div class="container">
+        <div class="request__inner">
+          <h3 class="request__title">Оставьте заявку и мы с вами свяжемся </h3>
+          <form class="request__form" action="" id="form" autocomplete="off">
+            <div class="request__input-wrapper">
+              <input class="request__input" 
+              type="text" 
+              name="name" 
+              placeholder="Ваше Имя" 
+              autocomplete="off" 
+              id="name">
+            </div>
+            <div class="request__input-wrapper">
+              <input class="request__input" 
+              type="tel" 
+              name="tel" 
+              placeholder="Номер телефона" 
+              autocomplete="off" 
+              id="tel">
+            </div>
+            <button disabled class="request__btn-border" id="submit-btn" type="submit">
+              <div class="request__btn-body">отправить</div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__content">
+            <h3 class="about__title">
+              О Нас
+              <span>Pascal vent</span>
+            </h3>
+            <h3 class="about__title">Особенности</h3>
+            <p class="about__text">Мы любим то, чем занимаемся – поэтому у нас индивидуальный подход к каждому человеку,
+              креативные решения для проекта любой сложности и высокий уровень клиентского сервиса.</p>
+            <p class="about__text">Именно поэтому нам доверяют сложнейшие задачи, рекомендуют нас и возвращаются вновь.
+              Доверьте нам воплощение ваших самых изысканных и технологичных задач, и мы сделаем всё с высочайшим
+              уровнем сервиса <span>Pascal Vent.</span> </p>
+            <p class="about__text"><span>Pascal Vent</span> гарантирует сертифицированные современные системы,
+              оборудование, качественные материалы и самые оптимальные решения под любой бюджет.</p>
+          </div>
+          <div class="about__box">
+            <ul class="about__list">
+              <li class="about__list-item">
+                <p class="about__list-title"><span>10</span> лет на рынке</p>
+                <p class="about__list-text">Работаем<br> как единое целое</p>
+                <div class="about__list-ellipse"></div>
+              </li>
+              <li class="about__list-item">
+                <p class="about__list-title"><span>+ 11</span> лет стажа</p>
+                <p class="about__list-text">Опытные и обученые специалисты своего дела</p>
+                <div class="about__list-ellipse"></div>
+              </li>
+              <li class="about__list-item">
+                <p class="about__list-title"><span>+ 180</span> клиентов</p>
+                <p class="about__list-text">Число счастливых клиентов за этот период</p>
+                <div class="about__list-ellipse"></div>
+              </li>
+              <li class="about__list-item">
+                <p class="about__list-title"><span>+ 470</span> проектов</p>
+                <p class="about__list-text">Большое количество реализованных проектов</p>
+                <div class="about__list-ellipse"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="about__ellipse"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comfort" id="comfort">
+      <div class="container">
+        <div class="comfort__inner">
+          <div class="comfort__content">
+            <h3 class="comfort__title">Комфорт И Уют<br> В Любое Время Года</h3>
+            <ul class="comfort__icon">
+              <li class="comfort__icon-item">
+                <img class="comfort__icon-img" src="images/picture1.svg" alt="icon">
+              </li>
+              <li class="comfort__icon-item">
+                <img class="comfort__icon-img" src="images/picture2.svg" alt="icon">
+              </li>
+              <li class="comfort__icon-item">
+                <img class="comfort__icon-img" src="images/picture3.svg" alt="icon">
+              </li>
+              <li class="comfort__icon-item">
+                <img class="comfort__icon-img" src="images/picture4.svg" alt="icon">
+              </li>
+              <li class="comfort__icon-item">
+                <img class="comfort__icon-img" src="images/picture5.svg" alt="icon">
+              </li>
+              <li class="comfort__icon-item">
+                <img class="comfort__icon-img" src="images/picture6.svg" alt="icon">
+              </li>
+            </ul>
+            <ul class="comfort__list">
+              <li class="comfort__list-item">Создание комфортных условий для работы и отдыха</li>
+              <li class="comfort__list-item">Чистый, свежий, приточный воздух круглый год</li>
+              <li class="comfort__list-item">Удаление не приятных запахов, избыточной влажности и накопившегося
+                углекислого газа из помещений</li>
+              <li class="comfort__list-item">Поддержание комфортной температуры и влажности воздуха зимой и летом</li>
+            </ul>
+            <p class="comfort__text"><span>Pascsl Vent</span> поможет улучшить ваше самочувствие и повысить
+              работоспособность днем, а ночью подарит здоровый и крепкий сон. Это важно для тех, кто следит за своим
+              здоровьем и здоровьем своих близких.</p>
+            <button class="button-border">
+              <div class="button-btn">заполнить заявку</div>
+            </button>
+          </div>
+          <div class="comfort__box">
+            <ul class="comfort__images">
+              <li class="comfort__images-item">
+                <img class="comfort__images-img" src="images/comfort1.png" alt="picture">
+              </li>
+              <li class="comfort__images-item">
+                <img class="comfort__images-img" src="images/comfort2.png" alt="picture">
+              </li>
+              <li class="comfort__images-item">
+                <img class="comfort__images-img" src="images/comfort3.png" alt="picture">
+              </li>
+              <li class="comfort__images-item">
+                <img class="comfort__images-img" src="images/comfort4.png" alt="picture">
+              </li>
+            </ul>
+          </div>
+          <div class="comfort__ellipse"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scheme" id="scheme">
+      <div class="container">
+        <h3 class="scheme__title">Понятная И Эффективная Схема Работы</h3>
+        <div class="scheme__inner">
+          <ul class="scheme__list-left">
+            <li class="scheme__list-item">
+              <h6 class="scheme__list-title">Получение заявки</h6>
+              <p class="scheme__list-text">Заполните форму, укажите свои данные и отправьте нашим менеджерам в обработку</p>
+            </li>
+            <li class="scheme__list-item">
+              <h6 class="scheme__list-title">Выезд на объект</h6>
+              <p class="scheme__list-text">В назначенное время мы выезжаем на объект и согласовываем основные технические решения, обсуждаем техническое задание</p>
+            </li>
+            <li class="scheme__list-item">
+              <h6 class="scheme__list-title">договор</h6>
+              <p class="scheme__list-text">Мы заключаем с Вами договор и начинаем проектирование и согласование проекта</p>
+            </li>
+          </ul>
+          <ul class="scheme__list-right">
+            <li class="scheme__list-item">
+              <h6 class="scheme__list-title">Консультация</h6>
+              <p class="scheme__list-text">После обработки Вашей заявки, мы связываемся с Вами, выявляем потребности и пожелания, а также проводим техническую консультацию</p>
+            </li>
+            <li class="scheme__list-item">
+              <h6 class="scheme__list-title">Составляем График</h6>
+              <p class="scheme__list-text">На этом этапе мы составляем коммерческое предложение и занимаемся согласованием графика работ (проектирования, закупки оборудования и монтажа).</p>
+            </li>
+            <li class="scheme__list-item">
+              <h6 class="scheme__list-title">Поставка и монтаж</h6>
+              <p class="scheme__list-text">На этом этапе, происходит поставка всех материалов и начинается выполнение монтажных работ</p>
+            </li>
+          </ul>
+        </div>
+        <div class="scheme__end">
+          <p class="scheme__end-text">Подписание акта выполненных работ</p>
+        </div>
+        <div class="scheme__lines">
+          <img class="scheme__line" src="images/line1.svg" alt="line">
+          <img class="scheme__line" src="images/line2.svg" alt="line">
+          <img class="scheme__line" src="images/line3.svg" alt="line">
+          <img class="scheme__line" src="images/line4.svg" alt="line">
+          <img class="scheme__line" src="images/line5.svg" alt="line">
+        </div>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container">
+        <div class="process__inner">
+          <div class="process__content">
+            <h3 class="process__title">Портфолио И <br>Процесс Работы</h3>
+            <p class="process__text">Технические решения, принятые в рабочих чертежах, соответствуют требованиям экологических, санитарно-гигиенических, противопожарных и других норм и правил, и обеспечивают безопасную для жизни людей эксплуатацию объекта при соблюдении предусмотренных рабочими чертежами мероприятий.</p>
+          </div>
+          <div class="process__slider swiper-container-1 swiper">
+            <div class="swiper-wrapper">
+              <div class="process__slider-item swiper-slide">
+                <div class="process__slider-container">
+                  <p class="process__slider-title">Приточная Вентиляция</p>
+                  <p class="process__slider-subtitle">Монтаж приточной вентиляции (объект в Прайм Парк)</p>
+                  <div class="process__slider-logo">
+                    <img class="process__slider-img" src="images/logo.svg" alt="logo">
+                  </div>
+                </div>
+              </div>
+              <div class="process__slider-item swiper-slide">
+                <div class="process__slider-container">
+                  <p class="process__slider-title">Приточная Вентиляция</p>
+                  <p class="process__slider-subtitle">Монтаж приточной вентиляции (объект в Прайм Парк)</p>
+                  <div class="process__slider-logo">
+                    <img class="process__slider-img" src="images/logo.svg" alt="logo">
+                  </div>
+                </div>
+              </div>
+              <div class="process__slider-item swiper-slide">
+                <div class="process__slider-container">
+                  <p class="process__slider-title">Канальные Кондиционеры</p>
+                  <p class="process__slider-subtitle">Монтаж приточной вентиляции (объект в Прайм Парк)</p>
+                  <div class="process__slider-logo">
+                    <img class="process__slider-img" src="images/logo.svg" alt="logo">
+                  </div>
+                </div>
+              </div>
+              <div class="process__slider-item swiper-slide">
+                <div class="process__slider-container">
+                  <p class="process__slider-title">Канальные Кондиционеры</p>
+                  <p class="process__slider-subtitle">Монтаж приточной вентиляции (объект в Прайм Парк)</p>
+                  <div class="process__slider-logo">
+                    <img class="process__slider-img" src="images/logo.svg" alt="logo">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="process__slider-button swiper-button-prev">
+              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_77_1210)" filter="url(#filter0_i_77_1210)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17 0C26.3889 0 34 7.61113 34 17C34 26.3886 26.3889 34 17 34C7.61113 34 0 26.3886 0 17C0 7.61113 7.61113 0 17 0ZM12.0881 18.3651C11.9935 18.3042 11.9026 18.2342 11.8198 18.1514C11.5027 17.8342 11.3501 17.4171 11.3576 17.0017C11.3504 16.5861 11.5033 16.1687 11.8202 15.8518C11.9027 15.7689 11.9936 15.6989 12.0882 15.6381L18.4401 9.28653C19.0601 8.66728 20.0651 8.66694 20.685 9.28687C21.305 9.90658 21.305 10.9115 20.685 11.5318L15.215 17.0018L20.7127 22.5003C21.3326 23.12 21.3326 24.1253 20.7127 24.7452C20.4026 25.0553 19.9966 25.2102 19.5905 25.2102C19.1843 25.2102 18.7781 25.0553 18.4682 24.7452L12.0881 18.3651Z" fill="#5CCD6A"/>
+                <path d="M11.8198 18.1514C11.9026 18.2342 11.9935 18.3042 12.0881 18.3651L18.4682 24.7452C18.7781 25.0553 19.1843 25.2102 19.5905 25.2102C19.9966 25.2102 20.4026 25.0553 20.7127 24.7452C21.3326 24.1253 21.3326 23.12 20.7127 22.5003L15.215 17.0018L20.685 11.5318C21.305 10.9115 21.305 9.90658 20.685 9.28687C20.0651 8.66694 19.0601 8.66728 18.4401 9.28653L12.0882 15.6381C11.9936 15.6989 11.9027 15.7689 11.8202 15.8518C11.5033 16.1687 11.3504 16.5861 11.3576 17.0017C11.3501 17.4171 11.5027 17.8342 11.8198 18.1514Z" fill="white"/>
+                </g>
+                <defs>
+                <filter id="filter0_i_77_1210" x="0" y="-2" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="2" dy="-2"/>
+                <feGaussianBlur stdDeviation="2.5"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.112937 0 0 0 0 0.3625 0 0 0 0 0.107844 0 0 0 0.2 0"/>
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_77_1210"/>
+                </filter>
+                <clipPath id="clip0_77_1210">
+                <rect width="34" height="34" fill="white" transform="matrix(-1 0 0 1 34 0)"/>
+                </clipPath>
+                </defs>
+              </svg>                
+            </div>
+            <div class="process__slider-button swiper-button-next">
+              <svg class="process__button-img" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_77_1203)" filter="url(#filter0_i_77_1203)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17 0C7.61113 0 0 7.61113 0 17C0 26.3886 7.61113 34 17 34C26.3889 34 34 26.3886 34 17C34 7.61113 26.3889 0 17 0ZM21.9119 18.3651C22.0065 18.3042 22.0974 18.2342 22.1802 18.1514C22.4973 17.8342 22.6499 17.4171 22.6424 17.0017C22.6496 16.5861 22.4967 16.1687 22.1798 15.8518C22.0973 15.7689 22.0064 15.6989 21.9118 15.6381L15.5599 9.28653C14.9399 8.66728 13.9349 8.66694 13.315 9.28687C12.695 9.90658 12.695 10.9115 13.315 11.5318L18.785 17.0018L13.2873 22.5003C12.6674 23.12 12.6674 24.1253 13.2873 24.7452C13.5974 25.0553 14.0034 25.2102 14.4095 25.2102C14.8157 25.2102 15.2219 25.0553 15.5318 24.7452L21.9119 18.3651Z" fill="#5CCD6A"/>
+                <path  d="M22.1802 18.1514C22.0974 18.2342 22.0065 18.3042 21.9119 18.3651L15.5318 24.7452C15.2219 25.0553 14.8157 25.2102 14.4095 25.2102C14.0034 25.2102 13.5974 25.0553 13.2873 24.7452C12.6674 24.1253 12.6674 23.12 13.2873 22.5003L18.785 17.0018L13.315 11.5318C12.695 10.9115 12.695 9.90658 13.315 9.28687C13.9349 8.66694 14.9399 8.66728 15.5599 9.28653L21.9118 15.6381C22.0064 15.6989 22.0973 15.7689 22.1798 15.8518C22.4967 16.1687 22.6496 16.5861 22.6424 17.0017C22.6499 17.4171 22.4973 17.8342 22.1802 18.1514Z" fill="white"/>
+                </g>
+                <defs>
+                <filter id="filter0_i_77_1203" x="0" y="-2" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="2" dy="-2"/>
+                <feGaussianBlur stdDeviation="2.5"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.112937 0 0 0 0 0.3625 0 0 0 0 0.107844 0 0 0 0.2 0"/>
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_77_1203"/>
+                </filter>
+                <clipPath id="clip0_77_1203">
+                <rect width="34" height="34" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </div>
+          </div>
+          <div class="process__ellipse"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients" id="clients">
+      <div class="container">
+        <div class="clients__inner">
+          <div class="clients__info">
+            <h3 class="clients__title">Известные Клиенты</h3>
+            <h3 class="clients__title">Которые Нам Доверились</h3>
+            <p class="clients__text">Реализованы проекты квартир и коммерческих помещений в жилых комплексах 
+              от крупных застройщиков таких как: Level, ФСК, MR групп, ПИК, Самолет, Гранель, Донстрой, Пионер, Эталон, А101, Sminex, Vesper, Инград, КРОСТ, МИЦ. Мы ценим каждого клиента <span>Pascal Vent</span> и с радостью готовы расширять нашу клиентскую базу.</p>
+          </div>
+          <div class="clients__slider swiper-container-2 swiper"> 
+            <div class="swiper-wrapper">
+              <div class="clients__slider-item swiper-slide">
+                <div class="clients__slide-box">
+                  <img class="clients__slide-img" src="images/client1.png" alt="slide">
+                </div>
+              </div>
+              <div class="clients__slider-item swiper-slide">
+                <div class="clients__slide-box">
+                  <img class="clients__slide-img" src="images/client2.png" alt="slide">
+                </div>
+              </div>
+              <div class="clients__slider-item swiper-slide">
+                <div class="clients__slide-box">
+                  <img class="clients__slide-img" src="images/client3.png" alt="slide">
+                </div>
+              </div>
+              <div class="clients__slider-item swiper-slide">
+                <div class="clients__slide-box">
+                  <img class="clients__slide-img" src="images/client1.png" alt="slide">
+                </div>
+              </div> 
+            </div>              
+            <div class="clients__slider-button swiper-button-prev2">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_86_1641)" filter="url(#filter0_i_86_1641)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14 28C21.732 28 28 21.732 28 14C28 6.26817 21.732 1.90735e-07 14 1.90735e-07C6.26799 1.90735e-07 1.90735e-07 6.26817 1.90735e-07 14C1.90735e-07 21.732 6.26799 28 14 28ZM9.95493 12.8758C9.877 12.9259 9.80215 12.9836 9.73392 13.0518C9.47277 13.313 9.34715 13.6565 9.35331 13.9986C9.34743 14.3409 9.47333 14.6846 9.73429 14.9456C9.80224 15.0139 9.87709 15.0715 9.95503 15.1216L15.186 20.3523C15.6965 20.8622 16.5242 20.8625 17.0347 20.352C17.5453 19.8416 17.5453 19.0141 17.0347 18.5032L12.53 13.9985L17.0575 9.47035C17.568 8.96 17.568 8.13213 17.0575 7.6216C16.8021 7.36624 16.4678 7.23866 16.1333 7.23866C15.7988 7.23866 15.4643 7.36624 15.2091 7.6216L9.95493 12.8758Z" fill="#5CCD6A"/>
+                <path d="M9.73392 13.0518C9.80215 12.9836 9.877 12.9259 9.95493 12.8758L15.2091 7.6216C15.4643 7.36624 15.7988 7.23866 16.1333 7.23866C16.4678 7.23866 16.8021 7.36624 17.0575 7.6216C17.568 8.13213 17.568 8.96 17.0575 9.47035L12.53 13.9985L17.0347 18.5032C17.5453 19.0141 17.5453 19.8416 17.0347 20.352C16.5242 20.8625 15.6965 20.8622 15.186 20.3523L9.95503 15.1216C9.87709 15.0715 9.80224 15.0139 9.73429 14.9456C9.47333 14.6846 9.34743 14.3409 9.35331 13.9986C9.34715 13.6565 9.47277 13.313 9.73392 13.0518Z" fill="white"/>
+                </g>
+                <defs>
+                <filter id="filter0_i_86_1641" x="0" y="-2" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="2" dy="-2"/>
+                <feGaussianBlur stdDeviation="2.5"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.112937 0 0 0 0 0.3625 0 0 0 0 0.107844 0 0 0 0.2 0"/>
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_86_1641"/>
+                </filter>
+                <clipPath id="clip0_86_1641">
+                <rect width="28" height="28" fill="white" transform="matrix(-1 0 0 -1 28 28)"/>
+                </clipPath>
+                </defs>
+              </svg>                 
+            </div>
+            <div class="clients__slider-button swiper-button-next2">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_86_1641)" filter="url(#filter0_i_86_1641)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14 0C6.26799 0 0 6.26799 0 14C0 21.7318 6.26799 28 14 28C21.732 28 28 21.7318 28 14C28 6.26799 21.732 0 14 0ZM18.0451 15.1242C18.123 15.0741 18.1979 15.0164 18.2661 14.9482C18.5272 14.687 18.6529 14.3435 18.6467 14.0014C18.6526 13.6591 18.5267 13.3154 18.2657 13.0544C18.1978 12.9861 18.1229 12.9285 18.045 12.8784L12.814 7.64773C12.3035 7.13776 11.4758 7.13748 10.9653 7.64801C10.4547 8.15836 10.4547 8.98595 10.9653 9.49676L15.47 14.0015L10.9425 18.5297C10.432 19.04 10.432 19.8679 10.9425 20.3784C11.1979 20.6338 11.5322 20.7613 11.8667 20.7613C12.2012 20.7613 12.5357 20.6338 12.7909 20.3784L18.0451 15.1242Z" fill="#5CCD6A"/>
+                <path d="M18.2661 14.9482C18.1979 15.0164 18.123 15.0741 18.0451 15.1242L12.7909 20.3784C12.5357 20.6338 12.2012 20.7613 11.8667 20.7613C11.5322 20.7613 11.1979 20.6338 10.9425 20.3784C10.432 19.8679 10.432 19.04 10.9425 18.5297L15.47 14.0015L10.9653 9.49676C10.4547 8.98595 10.4547 8.15836 10.9653 7.64801C11.4758 7.13748 12.3035 7.13776 12.814 7.64773L18.045 12.8784C18.1229 12.9285 18.1978 12.9861 18.2657 13.0544C18.5267 13.3154 18.6526 13.6591 18.6467 14.0014C18.6529 14.3435 18.5272 14.687 18.2661 14.9482Z" fill="white"/>
+                </g>
+                <defs>
+                <filter id="filter0_i_86_1641" x="0" y="-2" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="2" dy="-2"/>
+                <feGaussianBlur stdDeviation="2.5"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.112937 0 0 0 0 0.3625 0 0 0 0 0.107844 0 0 0 0.2 0"/>
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_86_1641"/>
+                </filter>
+                <clipPath id="clip0_86_1641">
+                <rect width="28" height="28" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="clients__background" src="images/clientsBack.png" alt="background">
+    </section>
+
+    <section class="feedback">
+      <div class="feedback__inner">
+        <h3 class="feedback__title">Мы Свяжемся</h3>
+        <h3 class="feedback__title">С Вами</h3>
+        <form class="feedback__form" action="">
+          <div class="feedback__input-wrapper">
+            <input class="feedback__input"
+            type="text"
+            name="name"
+            placeholder="Ваше Имя"
+            autocomplete="off"
+            id="nameFeedback">
+          </div>
+          <div class="feedback__input-wrapper">
+            <input class="feedback__input"
+            type="tel"
+            name="tel"
+            placeholder="Номер телефона"
+            autocomplete="off"
+            id="telFeedback">
+          </div>
+          <button disabled class="feedback__btn-border" type="submit">
+            <div class="feedback__btn-body">отправить</div>
+          </button>
+        </form>
+        <a class="logo" href="#">
+          <img class="logo-img" src="images/logo.svg" alt="logo">
+        </a>
+      </div>
+      <button class="feedback__exit-border">
+        <div class="feedback__exit-body">
+          <img class="feedback__exit-img" src="images/exit.svg" alt="exit">
+        </div>
+      </button>
+      <div class="overlay"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__content">
+          <a class="logo" href="#">
+            <img class="logo-img" src="images/logo.svg" alt="logo">
+          </a>
+          <p class="footer__text">Компания <span>"Pascal Vent"</span> входит в число лучших специализированных организаций, с широким ассортиментом товаров и услуг, предназначенных для систем вентиляции и кондиционирования, предоставляющих высокий сервис и удобство обслуживания нашим клиентам.</p>
+          <p class="footer__info">Чистый воздух вместе с <span>Pascal Vent</span></p>
+        </div>
+        <div class="footer__contacts">
+          <h6 class="footer__title">Контакты</h6>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="tel:+74923736331">+ 7 492 373 63 31</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="tel:+74243678929">+ 7 424 367 89 29</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="mailto:PascalVent@mail.ru">PascalVent@mail.ru</a>
+            </li>
+            <li class="footer__list-item">Пн - Сб: 9:00 - 19:00 <br>Вс: выходной</li>
+            <li class="footer__list-item"><span>Московский регион, </span>Москва ул. Плеханова, 28А</li>
+          </ul>
+        </div>
+        <div class="footer__box">
+          <h6 class="footer__title">Заполнить заявку</h6>
+          <form class="footer__form" action="" autocomplete="off">
+            <div class="footer__input-wrapper">
+              <input class="footer__form-input" 
+              type="text" 
+              name="name" 
+              placeholder="Ваше Имя"
+              id="nameFooter"
+              autocomplete="off">
+            </div>
+            <div class="footer__input-wrapper">
+              <input class="footer__form-input" 
+              type="tel" 
+              name="tel" 
+              placeholder="Номер телефона"
+              id="telFooter"
+              autocomplete="off">
+            </div>
+            <button disabled class="footer__btn-border" type="submit">
+              <div class="footer__btn-body">отправить</div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+   
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/just-validate.production.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
